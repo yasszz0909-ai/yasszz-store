@@ -17,3 +17,8 @@ function loginGoogle(){
   const isAdmin = fakeAuth.login("admin@yass.com");
   location.href = "admin/dashboard.html";
 }
+function loginSuccess(user){
+  localStorage.setItem("userLogin", JSON.stringify(user));
+  window.location.href = "index.html";
+}
+
