@@ -14,7 +14,7 @@
 ..grid{
   display:grid;
   grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-  gap:10px;
+  gap:12px;
 }
 .nav-link.login{
   background:#0ea5e9;
@@ -29,3 +29,4 @@
     gap:8px;
   }
 }
+
