@@ -31,11 +31,12 @@
   font-size:13px;
 }
 
-@media (max-width:480px){
+@media (max-width:640px){
   .grid{
-    grid-template-columns: repeat(2, 1fr);
-    gap:8px;
+    grid-template-columns:repeat(2, 1fr);
+    gap:12px;
   }
 }
+
 
 
