@@ -76,3 +76,25 @@
   color:#fff;
   border:none;
 }
+
+/* =========================
+   MOBILE SCALE FIX
+========================= */
+@media (max-width:768px){
+  .product-card{
+    height:245px;        /* ⬅️ lebih besar */
+    padding:14px;
+  }
+
+  .product-card h3{
+    font-size:16px;
+  }
+
+  .product-card .desc{
+    font-size:14px;
+  }
+
+  .price{
+    font-size:15px;
+  }
+}
