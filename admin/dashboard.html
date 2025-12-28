@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/admin.css">
+</head>
+<body>
+
+<header class="admin-header">
+  <h2>Admin Dashboard</h2>
+
+  <div class="admin-actions">
+    <a href="../index.html" class="home-btn">Home</a>
+    <button onclick="logout()">Logout</button>
+  </div>
+</header>
+
+
+<main class="container">
+  <h3>Kelola Produk</h3>
+
+  <form id="productForm">
+    <input placeholder="ID Produk" id="pid" required>
+    <input placeholder="Nama Produk" id="pname" required>
+    <input placeholder="Harga" id="pprice" type="number" required>
+    <input placeholder="Gambar (path)" id="pimg" required>
+    <textarea placeholder="Deskripsi" id="pdesc"></textarea>
+    <button type="submit">Simpan</button>
+  </form>
+<button id="exportBtn" style="margin-top:10px">
+  Export Produk (JSON)
+</button>
+
+  <div id="adminProductList"></div>
+</main>
+
+<script src="../js/data.js"></script>
+<script src="../js/firebase.js"></script>
+<script src="admin.js"></script>
+</body>
+</html>
