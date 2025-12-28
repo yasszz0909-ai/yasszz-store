@@ -1,0 +1,44 @@
+.detail-card{
+  background:#fff;
+  border-radius:12px;
+  padding:16px;
+  display:flex;
+  gap:16px;
+  box-shadow:0 4px 16px rgba(0,0,0,.08);
+}
+
+.detail-card .img{
+  width:160px;
+  height:160px;
+  background:#f3f4f6;
+  border-radius:10px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.detail-card img{
+  max-width:100%;
+  max-height:100%;
+}
+
+.detail-card .info{
+  flex:1;
+}
+
+.detail-card h2{
+  margin:0 0 8px;
+}
+
+.detail-card .desc{
+  font-size:13px;
+  color:#6b7280;
+  margin-bottom:12px;
+}
+
+.detail-card .price{
+  font-size:18px;
+  font-weight:700;
+  color:#16a34a;
+  margin-bottom:14px;
+}
