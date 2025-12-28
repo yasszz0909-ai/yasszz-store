@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Login - Yass Store</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/auth.css">
+</head>
+<body>
+
+<div class="auth-box">
+  <h2>Login</h2>
+
+  <input id="email" type="email" placeholder="Email">
+  <input id="password" type="password" placeholder="Password">
+
+  <button onclick="loginEmail()">Login Email</button>
+  <button class="google" onclick="loginGoogle()">Login Google</button>
+
+  <p class="small">Admin saja yang bisa masuk dashboard</p>
+</div>
+
+<script src="js/firebase.js"></script>
+<script src="js/auth.js"></script>
+</body>
+</html>
